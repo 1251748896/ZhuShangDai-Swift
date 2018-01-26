@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0458F4451EFCEA080007433A /* MainHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0458F4441EFCEA080007433A /* MainHeaderView.swift */; };
+		0458F4481EFCEA410007433A /* ProductListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0458F4471EFCEA410007433A /* ProductListCell.swift */; };
 		047DF3B91EFA48C700BB4F2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047DF3B81EFA48C700BB4F2F /* AppDelegate.swift */; };
 		047DF3BB1EFA48C700BB4F2F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047DF3BA1EFA48C700BB4F2F /* ViewController.swift */; };
 		047DF3BE1EFA48C700BB4F2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047DF3BC1EFA48C700BB4F2F /* Main.storyboard */; };
@@ -14,6 +16,13 @@
 		047DF3C31EFA48C700BB4F2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047DF3C11EFA48C700BB4F2F /* LaunchScreen.storyboard */; };
 		047DF3CE1EFA48C700BB4F2F /* ZhuShangDai_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047DF3CD1EFA48C700BB4F2F /* ZhuShangDai_SwiftTests.swift */; };
 		047DF3D91EFA48C700BB4F2F /* ZhuShangDai_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047DF3D81EFA48C700BB4F2F /* ZhuShangDai_SwiftUITests.swift */; };
+		047DF3ED1EFA4B6600BB4F2F /* Tool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047DF3EC1EFA4B6600BB4F2F /* Tool.swift */; };
+		047DF3EF1EFA4B7D00BB4F2F /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047DF3EE1EFA4B7D00BB4F2F /* BaseViewController.swift */; };
+		047DF3F11EFA4B9F00BB4F2F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047DF3F01EFA4B9F00BB4F2F /* MainViewController.swift */; };
+		047DF3F31EFA4BEE00BB4F2F /* UserCenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047DF3F21EFA4BEE00BB4F2F /* UserCenterViewController.swift */; };
+		047DF3F51EFA4BFF00BB4F2F /* LiCaiListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047DF3F41EFA4BFF00BB4F2F /* LiCaiListViewController.swift */; };
+		047DF3F71EFA4C0B00BB4F2F /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047DF3F61EFA4C0B00BB4F2F /* MoreViewController.swift */; };
+		047DF3F91EFA4CA500BB4F2F /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047DF3F81EFA4CA500BB4F2F /* RootViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0458F4441EFCEA080007433A /* MainHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainHeaderView.swift; sourceTree = "<group>"; };
+		0458F4471EFCEA410007433A /* ProductListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductListCell.swift; sourceTree = "<group>"; };
 		047DF3B51EFA48C600BB4F2F /* ZhuShangDai-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ZhuShangDai-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		047DF3B81EFA48C700BB4F2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		047DF3BA1EFA48C700BB4F2F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +58,13 @@
 		047DF3D41EFA48C700BB4F2F /* ZhuShangDai-SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ZhuShangDai-SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		047DF3D81EFA48C700BB4F2F /* ZhuShangDai_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZhuShangDai_SwiftUITests.swift; sourceTree = "<group>"; };
 		047DF3DA1EFA48C700BB4F2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		047DF3EC1EFA4B6600BB4F2F /* Tool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tool.swift; sourceTree = "<group>"; };
+		047DF3EE1EFA4B7D00BB4F2F /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		047DF3F01EFA4B9F00BB4F2F /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		047DF3F21EFA4BEE00BB4F2F /* UserCenterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCenterViewController.swift; sourceTree = "<group>"; };
+		047DF3F41EFA4BFF00BB4F2F /* LiCaiListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiCaiListViewController.swift; sourceTree = "<group>"; };
+		047DF3F61EFA4C0B00BB4F2F /* MoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
+		047DF3F81EFA4CA500BB4F2F /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +92,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0458F4411EFCDCF90007433A /* views */ = {
+			isa = PBXGroup;
+			children = (
+				0458F4441EFCEA080007433A /* MainHeaderView.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		0458F4461EFCEA190007433A /* views */ = {
+			isa = PBXGroup;
+			children = (
+				0458F4471EFCEA410007433A /* ProductListCell.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		04753D761EFB834900FEFFC5 /* JSONS */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = JSONS;
+			sourceTree = "<group>";
+		};
 		047DF3AC1EFA48C600BB4F2F = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +138,13 @@
 		047DF3B71EFA48C600BB4F2F /* ZhuShangDai-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				04753D761EFB834900FEFFC5 /* JSONS */,
+				047DF3EB1EFA4B5400BB4F2F /* tools */,
+				047DF3EA1EFA4B4800BB4F2F /* bases */,
+				047DF3E91EFA49C100BB4F2F /* more */,
+				047DF3E81EFA49B900BB4F2F /* licaiList */,
+				047DF3E71EFA49AE00BB4F2F /* userCenter */,
+				047DF3E61EFA499D00BB4F2F /* main */,
 				047DF3B81EFA48C700BB4F2F /* AppDelegate.swift */,
 				047DF3BA1EFA48C700BB4F2F /* ViewController.swift */,
 				047DF3BC1EFA48C700BB4F2F /* Main.storyboard */,
@@ -123,6 +171,57 @@
 				047DF3DA1EFA48C700BB4F2F /* Info.plist */,
 			);
 			path = "ZhuShangDai-SwiftUITests";
+			sourceTree = "<group>";
+		};
+		047DF3E61EFA499D00BB4F2F /* main */ = {
+			isa = PBXGroup;
+			children = (
+				0458F4411EFCDCF90007433A /* views */,
+				047DF3F01EFA4B9F00BB4F2F /* MainViewController.swift */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		047DF3E71EFA49AE00BB4F2F /* userCenter */ = {
+			isa = PBXGroup;
+			children = (
+				047DF3F21EFA4BEE00BB4F2F /* UserCenterViewController.swift */,
+			);
+			path = userCenter;
+			sourceTree = "<group>";
+		};
+		047DF3E81EFA49B900BB4F2F /* licaiList */ = {
+			isa = PBXGroup;
+			children = (
+				0458F4461EFCEA190007433A /* views */,
+				047DF3F41EFA4BFF00BB4F2F /* LiCaiListViewController.swift */,
+			);
+			path = licaiList;
+			sourceTree = "<group>";
+		};
+		047DF3E91EFA49C100BB4F2F /* more */ = {
+			isa = PBXGroup;
+			children = (
+				047DF3F61EFA4C0B00BB4F2F /* MoreViewController.swift */,
+			);
+			path = more;
+			sourceTree = "<group>";
+		};
+		047DF3EA1EFA4B4800BB4F2F /* bases */ = {
+			isa = PBXGroup;
+			children = (
+				047DF3EE1EFA4B7D00BB4F2F /* BaseViewController.swift */,
+				047DF3F81EFA4CA500BB4F2F /* RootViewController.swift */,
+			);
+			path = bases;
+			sourceTree = "<group>";
+		};
+		047DF3EB1EFA4B5400BB4F2F /* tools */ = {
+			isa = PBXGroup;
+			children = (
+				047DF3EC1EFA4B6600BB4F2F /* Tool.swift */,
+			);
+			path = tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,8 +361,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				047DF3ED1EFA4B6600BB4F2F /* Tool.swift in Sources */,
+				047DF3EF1EFA4B7D00BB4F2F /* BaseViewController.swift in Sources */,
+				047DF3F91EFA4CA500BB4F2F /* RootViewController.swift in Sources */,
+				047DF3F31EFA4BEE00BB4F2F /* UserCenterViewController.swift in Sources */,
+				0458F4481EFCEA410007433A /* ProductListCell.swift in Sources */,
+				047DF3F51EFA4BFF00BB4F2F /* LiCaiListViewController.swift in Sources */,
+				0458F4451EFCEA080007433A /* MainHeaderView.swift in Sources */,
 				047DF3BB1EFA48C700BB4F2F /* ViewController.swift in Sources */,
+				047DF3F71EFA4C0B00BB4F2F /* MoreViewController.swift in Sources */,
 				047DF3B91EFA48C700BB4F2F /* AppDelegate.swift in Sources */,
+				047DF3F11EFA4B9F00BB4F2F /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,6 +622,7 @@
 				047DF3DF1EFA48C700BB4F2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		047DF3E01EFA48C700BB4F2F /* Build configuration list for PBXNativeTarget "ZhuShangDai-SwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +631,7 @@
 				047DF3E21EFA48C700BB4F2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		047DF3E31EFA48C700BB4F2F /* Build configuration list for PBXNativeTarget "ZhuShangDai-SwiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +640,7 @@
 				047DF3E51EFA48C700BB4F2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
